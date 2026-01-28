@@ -1,0 +1,10 @@
+{
+  "species": [
+    {"name": "Prey", "population": 50.0, "growth_rate": 0.1},
+    {"name": "Predator", "population": 10.0, "growth_rate": -0.05}
+  ],
+  "interactions": [
+    {"src": "Predator", "dst": "Prey", "strength": -0.02},
+    {"src": "Prey", "dst": "Predator", "strength": 0.01}
+  ]
+}
